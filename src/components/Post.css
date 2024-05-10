@@ -1,0 +1,40 @@
+/* .listContainer{
+   text-align: center;
+} */
+.content{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.list_items{
+    display: flex;
+    flex-direction: row;
+}
+.itemno{
+    text-align: left;
+    margin-left: 56px;
+}
+.itemno span{
+    font-weight: bold;
+}
+.pagination_section{
+    margin:12px 0;
+}
+.leftArrow{
+    margin-right: 5px;
+}
+.pagination_Number{
+    padding :5px 13px;
+    background-color: lightgreen;
+    border-right: 1px solid green;
+}
+.rightArrow{
+    margin-left: 5px;
+}
+.numbers{
+    font-size:18px;
+    font-weight:500;
+    padding :8px 15px;  
+    border-radius: 10px;
+    background-color:yellow;
+}
